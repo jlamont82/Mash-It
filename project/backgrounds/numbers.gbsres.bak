@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "b08267a7-5772-4bc1-9e26-d05949d1b52e",
+  "name": "numbers",
+  "symbol": "bg_numbers",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "numbers.png",
+  "tileColors": "07168+"
+}

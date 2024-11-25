@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "d390daa1-8328-4413-8a2e-ab5cbee7cf45",
+  "name": "game screen 1",
+  "symbol": "bg_titlescreen_copy_0",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "game screen 1.png",
+  "tileColors": "07a+06a+072+0612+07!0613+07!0612+07e+066+07b1+0654+",
+  "autoColor": false
+}

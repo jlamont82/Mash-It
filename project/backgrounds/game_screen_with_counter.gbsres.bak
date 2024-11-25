@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "37cde61f-0ee7-45a4-a876-3ce70be08046",
+  "name": "game screen with counter",
+  "symbol": "bg_game_screen_copy_1",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "game screen with counter.png",
+  "tileColors": "07168+",
+  "autoColor": false
+}
