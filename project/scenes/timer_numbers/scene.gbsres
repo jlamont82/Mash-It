@@ -1,0 +1,32 @@
+{
+  "_resourceType": "scene",
+  "id": "67b63cb2-ef8e-4a95-bae5-9bfd267154b4",
+  "_index": 6,
+  "type": "TOPDOWN",
+  "name": "Timer numbers",
+  "symbol": "scene_7",
+  "x": 800,
+  "y": 208,
+  "width": 20,
+  "height": 18,
+  "backgroundId": "b08267a7-5772-4bc1-9e26-d05949d1b52e",
+  "tilesetId": "",
+  "paletteIds": [
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "b550d28a-9cb7-4f19-82fb-d839725f2419"
+  ],
+  "spritePaletteIds": [],
+  "autoFadeSpeed": 1,
+  "playerSpriteSheetId": "f10ce36e-cf99-4184-9475-9217d7118e68",
+  "script": [],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "collisions": ""
+}

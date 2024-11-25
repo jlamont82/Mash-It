@@ -1,0 +1,115 @@
+{
+  "_resourceType": "scene",
+  "id": "c8077e1c-154c-445a-a182-8aaa447ca808",
+  "_index": 2,
+  "type": "TOPDOWN",
+  "name": "Scene 3",
+  "symbol": "scene_3",
+  "x": 558,
+  "y": 76,
+  "width": 20,
+  "height": 18,
+  "backgroundId": "d390daa1-8328-4413-8a2e-ab5cbee7cf45",
+  "tilesetId": "",
+  "paletteIds": [
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "2801a5c2-3b0b-41b9-90c9-ec2af73d825d",
+    "b550d28a-9cb7-4f19-82fb-d839725f2419"
+  ],
+  "spritePaletteIds": [],
+  "autoFadeSpeed": 1,
+  "script": [
+    {
+      "command": "EVENT_HIDE_SPRITES",
+      "args": {},
+      "id": "0b20f2a8-6fc5-426d-a1a5-84c1c385a875"
+    },
+    {
+      "command": "EVENT_VARIABLE_MATH",
+      "args": {
+        "vectorX": "2",
+        "operation": "set",
+        "other": "val",
+        "vectorY": "L0",
+        "value": 0,
+        "minValue": "0",
+        "maxValue": "32767",
+        "clamp": false,
+        "__collapse": true,
+        "__comment": true
+      },
+      "id": "e915edef-16da-4e35-a9ce-9dbecf7911c3"
+    },
+    {
+      "command": "EVENT_VARIABLE_MATH",
+      "args": {
+        "vectorX": "18",
+        "operation": "set",
+        "other": "val",
+        "vectorY": "L0",
+        "value": 0,
+        "minValue": "0",
+        "maxValue": "32767",
+        "clamp": false,
+        "__collapse": true,
+        "__comment": true
+      },
+      "id": "2f46fe7a-ddef-418f-bfba-874611506468"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "This is a test \nto how many times\nyou can press ",
+          "the buttons on your\nGameboy. ",
+          "You have 10 seconds \nto prove you are not \na Couch Potato!!!"
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "any",
+        "closeDelayTime": 1.2,
+        "closeDelayFrames": 30,
+        "__comment": false
+      },
+      "id": "35719508-797b-4b29-8875-7fd5c4e1ce37"
+    },
+    {
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "ee534774-c297-4e97-9328-bc4894133502",
+        "x": {
+          "type": "number",
+          "value": 0
+        },
+        "y": {
+          "type": "number",
+          "value": 0
+        },
+        "direction": "",
+        "fadeSpeed": "2"
+      },
+      "id": "4311fb0c-b9fa-4378-9b3d-a8d8079e2ee4"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "collisions": "",
+  "playerSpriteSheetId": "f10ce36e-cf99-4184-9475-9217d7118e68"
+}

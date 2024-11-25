@@ -1,0 +1,155 @@
+{
+  "_resourceType": "actor",
+  "id": "f36b9fc3-ce2f-47b9-8dd0-156372879af3",
+  "name": "",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "f10ce36e-cf99-4184-9475-9217d7118e68",
+  "prefabId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": true,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "symbol": "actor_0",
+  "script": [],
+  "startScript": [],
+  "updateScript": [
+    {
+      "command": "EVENT_WAIT",
+      "args": {
+        "time": 1,
+        "frames": 30,
+        "__collapse": true
+      },
+      "id": "51d44439-2bcd-4644-8d61-f3724115d65c"
+    },
+    {
+      "command": "EVENT_VARIABLE_MATH",
+      "args": {
+        "vectorX": "2",
+        "operation": "add",
+        "other": "val",
+        "vectorY": "L0",
+        "value": 1,
+        "minValue": "0",
+        "maxValue": "32767",
+        "clamp": false,
+        "__collapse": false
+      },
+      "id": "2d21c213-47a2-4265-91b8-469ad5225671"
+    },
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "gt",
+          "valueA": {
+            "type": "variable",
+            "value": "2"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 9
+          }
+        },
+        "__collapseElse": false,
+        "__collapse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_VARIABLE_MATH",
+            "args": {
+              "vectorX": "2",
+              "operation": "set",
+              "other": "val",
+              "vectorY": "L0",
+              "value": 0,
+              "minValue": "0",
+              "maxValue": "32767",
+              "clamp": false
+            },
+            "id": "72986805-682c-4638-9905-17a3a6b524f3"
+          },
+          {
+            "command": "EVENT_VARIABLE_MATH",
+            "args": {
+              "vectorX": "18",
+              "operation": "add",
+              "other": "val",
+              "vectorY": "L0",
+              "value": 1,
+              "minValue": "0",
+              "maxValue": "32767",
+              "clamp": false
+            },
+            "id": "fb6fec3f-ae95-45b1-8a45-0136f5351ce3"
+          }
+        ],
+        "false": []
+      },
+      "id": "4280d20d-0e5d-4986-a5dc-00d4955068ea"
+    },
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "gt",
+          "valueA": {
+            "type": "variable",
+            "value": "18"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 9
+          }
+        },
+        "__collapseElse": true,
+        "__collapse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_VARIABLE_MATH",
+            "args": {
+              "vectorX": "18",
+              "operation": "set",
+              "other": "val",
+              "vectorY": "L0",
+              "value": 0,
+              "minValue": "0",
+              "maxValue": "32767",
+              "clamp": false
+            },
+            "id": "53661e1a-0617-4296-be44-325b77cfd0c7"
+          }
+        ],
+        "false": []
+      },
+      "id": "803fc6db-c545-4bda-94ea-ee05a135d014"
+    },
+    {
+      "command": "EVENT_GBVM_SCRIPT",
+      "args": {
+        "script": "VM_REPLACE_TILE_XY, 02, 17, ___bank_bg_numbers_tileset, _bg_numbers_tileset, VAR_TIME10S\nVM_REPLACE_TILE_XY, 03, 17, ___bank_bg_numbers_tileset, _bg_numbers_tileset, VAR_TIMES",
+        "references": [
+          {
+            "type": "background",
+            "id": "b08267a7-5772-4bc1-9e26-d05949d1b52e"
+          }
+        ]
+      },
+      "id": "a1c526e5-e61e-4f21-ac8d-af11bbf2fc6a"
+    }
+  ],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "x": 2,
+  "y": 7,
+  "_index": 0
+}
